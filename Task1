@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma's Secret Apple Pie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grandma's Secret Apple Pie</h1>
+        <p class="description">This apple pie recipe has been in my family for generations and never fails to delight.</p>
+        
+        <div class="content">
+            <div class="ingredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1/2 cup sugar</li>
+                    <li>2 tsp ground cinnamon</li>
+                    <li>6 medium-sized apples, peeled and sliced</li>
+                </ul>
+            </div>
+            <div class="instructions">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>Preheat oven to 375°F (190°C).</li>
+                    <li>In a bowl, mix the sugar and cinnamon.</li>
+                    <li>Toss the apples in the sugar-cinnamon mixture.</li>
+                </ol>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 by [Your Name]. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5e1;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fffbe8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    background-color: #92C6C6;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.description {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.ingredients, .instructions {
+    width: 45%;
+}
+
+h2 {
+    color: #E54477;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #92C6C6;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
